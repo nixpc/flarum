@@ -38,8 +38,14 @@
         "source": "https://github.com/flarum/flarum",
         "docs": "https://flarum.org/docs/"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/nixpc/flarum"
+        }
+    ],
     "require": {
-        "nixpc/core": "^0.1.0",
+        "flarum/core": "dev-reverseproxy",
         "flarum/approval": "^0.1.0",
         "flarum/auth-facebook": "^0.1.0",
         "flarum/auth-github": "^0.1.0",
